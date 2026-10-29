@@ -1,0 +1,2 @@
+<?php
+return ['domain'=>'tmswp','plural-forms'=>'nplurals=1; plural=0;','language'=>'ja','project-id-version'=>'tmswp-settings-page','pot-creation-date'=>'2026-10-27T00:00:00+00:00','po-revision-date'=>'2026-10-27T00:00:00+00:00','messages'=>['Sorry, you are not allowed to access this page.'=>'このページにアクセスする権限がありません。','Settings saved.'=>'設定を保存しました。','The settings were not saved. Please check the errors in the fields.'=>'設定を保存できませんでした。項目のエラーを確認してください。','Save Changes'=>'変更を保存']];
