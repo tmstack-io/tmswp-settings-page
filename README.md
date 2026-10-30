@@ -5,7 +5,7 @@ TMStack WordPress Framework(TMSWP)の拡張パッケージで、管理画面の�
 ## 動作環境
 
 - PHP 8.3〜8.5、WordPress 7.0以上
-- tmswp/core `^0.9.1`(composer.jsonの`require`)
+- tmswp/core `^0.10`(composer.jsonの`require`)
 
 ## 提供するもの
 
@@ -76,7 +76,7 @@ final class ShopSettingsPage extends SettingsPage
 - 拡張の登録の仕方: `vendor/tmswp/core/rules/extensions.md`
 - オプショングループの宣言: `vendor/tmswp/core/rules/options.md`
 
-設計の正本は、TMSWPのmonorepo([tmstack-io/tmswp](https://github.com/tmstack-io/tmswp))の[docs/08-extensions.md](https://github.com/tmstack-io/tmswp/blob/v0.9.1/docs/08-extensions.md)の「tmswp/settings-page — 管理画面設定ページ」の節です。
+設計の正本は、TMSWPのmonorepo([tmstack-io/tmswp](https://github.com/tmstack-io/tmswp))の[docs/08-extensions.md](https://github.com/tmstack-io/tmswp/blob/v0.10.0/docs/08-extensions.md)の「tmswp/settings-page — 管理画面設定ページ」の節です。
 
 ## ライセンス
 
