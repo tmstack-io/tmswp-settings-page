@@ -320,4 +320,4 @@ $notice = ShopOption::noticeText();
 - オプショングループの宣言・読み書きの規則・テスト: vendor/tmswp/core/rules/options.md
 - フォームの項目・規則・描画: vendor/tmswp/core/rules/form.md
 - 拡張の登録の仕方と制約: vendor/tmswp/core/rules/extensions.md
-- 設計の正本: TMSWPのmonorepoのdocs/08-extensions.mdの§2
+- 設計の正本: TMSWPのmonorepoの[docs/08-extensions.md](https://github.com/tmstack-io/tmswp/blob/v0.9.1/docs/08-extensions.md)の「tmswp/settings-page — 管理画面設定ページ」の節

@@ -129,7 +129,7 @@ final class PageRegistrar
 
         $page->frameworkSubmit($result);
         wp_safe_redirect($page->url([self::SAVED_QUERY_ARG => '1']));
-        // 原則1(docs/00 §3)のexit禁止の例外。設定ページの保存の後のリダイレクトの応答をここで確定させる(D-35)
+        // FWはexitを使わないが、設定ページの保存の後のwp_safe_redirect()の直後だけは例外とし、リダイレクトの応答をここで確定させる
         exit;
     }
 
